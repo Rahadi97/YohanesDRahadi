@@ -1,0 +1,424 @@
+.mediaViewInfo {
+	--web-view-name: About Me;
+	--web-view-id: About_Me;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About_Me;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About_Me {
+	position: absolute;
+	width: 1920px;
+	height: 2374px;
+	background-color: rgba(4,15,16,1);
+	overflow: hidden;
+	--web-view-name: About Me;
+	--web-view-id: About_Me;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#About_Me_ {
+	left: 183px;
+	top: 392px;
+	position: absolute;
+	overflow: hidden;
+	width: 524px;
+	height: 106px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 95px;
+	color: rgba(136,217,223,1);
+	text-transform: capitalize;
+}
+#Hello_my_name_Yohanes_Dani_Pra {
+	left: 183px;
+	top: 540px;
+	position: absolute;
+	overflow: visible;
+	width: 1037px;
+	height: 251px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 39px;
+	color: rgba(255,255,255,1);
+}
+#LGO6 {
+	position: absolute;
+	width: 383px;
+	height: 165px;
+	left: 183px;
+	top: 87px;
+	overflow: visible;
+}
+#Mask_Group_8 {
+	position: absolute;
+	width: 525px;
+	height: 525px;
+	left: 1273px;
+	top: 333px;
+	overflow: visible;
+}
+#HOME {
+	left: 1198px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(136,217,223,1);
+}
+#EXPERIENCE {
+	left: 1440px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Experience.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(51,191,201,1);
+}
+#Group_6 {
+	position: absolute;
+	width: 554px;
+	height: 301px;
+	left: 183px;
+	top: 1986px;
+	overflow: visible;
+}
+#Contact_Me {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 149px;
+	height: 49px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Group_3 {
+	position: absolute;
+	width: 407px;
+	height: 49px;
+	left: 0px;
+	top: 51px;
+	overflow: visible;
+}
+#Icon_material-mail-outline {
+	fill: rgba(249,249,249,1);
+}
+.Icon_material-mail-outline {
+	overflow: visible;
+	position: absolute;
+	width: 36.987px;
+	height: 29.59px;
+	left: 0px;
+	top: 2.327px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Yodaprarahgmailcom {
+	left: 59px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 349px;
+	height: 49px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Group_2 {
+	position: absolute;
+	width: 554px;
+	height: 58.132px;
+	left: 0px;
+	top: 113.868px;
+	overflow: visible;
+}
+#Icon_awesome-linkedin-in {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-linkedin-in {
+	overflow: visible;
+	position: absolute;
+	width: 36.987px;
+	height: 36.987px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Yohanes_Dani_Pratama_Rahadiant {
+	left: 59px;
+	top: 9.132px;
+	position: absolute;
+	overflow: visible;
+	width: 496px;
+	height: 49px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Group_4 {
+	position: absolute;
+	width: 554px;
+	height: 52.012px;
+	left: 0px;
+	top: 185.988px;
+	overflow: visible;
+}
+#Icon_feather-instagram {
+	position: absolute;
+	width: 36.987px;
+	height: 36.987px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_4 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_4 {
+	overflow: visible;
+	position: absolute;
+	width: 39.987px;
+	height: 39.987px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_5 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_5 {
+	overflow: visible;
+	position: absolute;
+	width: 18.006px;
+	height: 18.006px;
+	left: 11.176px;
+	top: 11.016px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_6 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	left: 28.665px;
+	top: 8.322px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Yohanesdpr {
+	left: 59px;
+	top: 3.012px;
+	position: absolute;
+	overflow: visible;
+	width: 496px;
+	height: 49px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Group_5 {
+	position: absolute;
+	width: 550px;
+	height: 49px;
+	left: 0px;
+	top: 252px;
+	overflow: visible;
+}
+#Icon_feather-phone {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Icon_feather-phone {
+	overflow: visible;
+	position: absolute;
+	width: 34.21px;
+	height: 34.273px;
+	left: 0px;
+	top: 0.073px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ID6285211257869 {
+	left: 55px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 496px;
+	height: 49px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Education_ {
+	left: 183px;
+	top: 1063px;
+	position: absolute;
+	overflow: hidden;
+	width: 524px;
+	height: 106px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 95px;
+	color: rgba(136,217,223,1);
+	text-transform: capitalize;
+}
+#SMA_PANGUDI_LUHUR_SEDAYU_YOGYA {
+	left: 183px;
+	top: 1244px;
+	position: absolute;
+	overflow: hidden;
+	width: 953px;
+	height: 155px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	color: rgba(136,217,223,1);
+	text-transform: capitalize;
+}
+#ID2015_-_2018_ {
+	left: 183px;
+	top: 1399px;
+	position: absolute;
+	overflow: hidden;
+	width: 317px;
+	height: 64px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+}
+#UNIVERSITAS_SANATA_DHARMA_YOGY {
+	left: 183px;
+	top: 1615px;
+	position: absolute;
+	overflow: hidden;
+	width: 953px;
+	height: 155px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 61px;
+	color: rgba(136,217,223,1);
+	text-transform: capitalize;
+}
+#ID2018_-_Now_ {
+	left: 183px;
+	top: 1770px;
+	position: absolute;
+	overflow: hidden;
+	width: 317px;
+	height: 64px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+}
+#sadhar {
+	position: absolute;
+	width: 336px;
+	height: 336px;
+	left: 1368px;
+	top: 1556px;
+	overflow: visible;
+}
+#PL {
+	position: absolute;
+	width: 224px;
+	height: 301px;
+	left: 1424px;
+	top: 1244px;
+	overflow: visible;
+}

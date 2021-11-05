@@ -1,0 +1,183 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(4,15,16,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Mask_Group_3 {
+	opacity: 0.9;
+	position: absolute;
+	width: 846px;
+	height: 570px;
+	left: 1074px;
+	top: 379px;
+	overflow: visible;
+}
+#Mask_Group_4 {
+	opacity: 0.57;
+	position: absolute;
+	width: 846px;
+	height: 570px;
+	left: 871px;
+	top: 510px;
+	overflow: visible;
+}
+#Hola_Welcome_to_The_Porto___ {
+	left: 183px;
+	top: 370px;
+	position: absolute;
+	overflow: hidden;
+	width: 1287px;
+	height: 260px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 95px;
+	color: rgba(136,217,223,1);
+	text-transform: capitalize;
+}
+#Let_me_introduce_myself_with_t {
+	left: 183px;
+	top: 630px;
+	position: absolute;
+	overflow: visible;
+	width: 823px;
+	height: 213px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+	text-transform: capitalize;
+}
+#Group_1 {
+	position: absolute;
+	width: 220px;
+	height: 100px;
+	left: 183px;
+	top: 843px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: About_Me.html;
+	cursor: pointer;
+}
+#Button {
+	fill: rgba(136,217,223,1);
+}
+.Button {
+	position: absolute;
+	overflow: visible;
+	width: 220px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#About_Me {
+	left: 14px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 39px;
+	color: rgba(255,255,255,1);
+}
+#LGO6 {
+	position: absolute;
+	width: 383px;
+	height: 165px;
+	left: 183px;
+	top: 87px;
+	overflow: visible;
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(136,217,223,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1052.776px;
+	height: 705.158px;
+	left: 871.5px;
+	top: 381.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#HOME {
+	left: 1198px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 45px;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(136,217,223,1);
+}
+#EXPERIENCE {
+	left: 1440px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	height: 45px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Experience.html;
+	cursor: pointer;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 31px;
+	color: rgba(51,191,201,1);
+}
